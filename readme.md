@@ -27,8 +27,11 @@ py scrapping.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=
 
 Průběh zpracování:
 EXTRAHUJI DATA Z ODKAZU https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3101
+
 ZPRACOVAVAM
+
 UKLADAM VYSLEDKY DO SOUBORU budejovice.csv
+
 HOTOVO
 
 Částečný výstup:
