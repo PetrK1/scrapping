@@ -104,8 +104,7 @@ def main():
     except IndexError:
         print('nezadal jsi url nebo vystupni soubor')
     else:
-#url = "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=9&xnumnuts=5301"
-#url = "https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=3&xnumnuts=3105"
+
         try:
             vysledek = extrahuj_tabulky(url)
         except requests.exceptions.MissingSchema:
