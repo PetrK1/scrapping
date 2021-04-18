@@ -53,7 +53,7 @@ def cisla_nazvy(vysledek):
 #odtud zacinaji funkce pro extrakci dat pro jednotlive obce
 
 def extrahuj_tabulky1(url):
-#pro danou obec vraci celkovou tabulku politickych a hlasu ze vsech tabulek na strance
+#pro obce v okrese vraci celkovou tabulku politickych stran a hlasu 
 
     r = requests.get(url)
     soup = bs4.BeautifulSoup(r.text, "html.parser")
