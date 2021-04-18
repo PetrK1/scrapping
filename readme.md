@@ -1,4 +1,5 @@
 Election scrapper
+
 Popis projektu: Projekt slouží k extrakci výsledků parlamentních voleb z roku 2017, viz odkaz:
 https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
 
