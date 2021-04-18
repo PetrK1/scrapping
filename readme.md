@@ -1,6 +1,7 @@
 Election scrapper
 
 Popis projektu: Projekt slouží k extrakci výsledků parlamentních voleb z roku 2017, viz odkaz:
+
 https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
 
 Knihovny:
@@ -14,11 +15,13 @@ Spuštění projektu scrapping.py:
 
 Provádí se pomocí příkazového řádku a musí obsahovat 2 argumenty:
 py scrapping.py <odkaz_uzemniho_celku><vysledny_soubor>
+
 Výsledky se uloží do souboru s příponou .csv
 
 Ukázka projektu:
 
 Výsledky hlasování pro okres České Budějovice
+
 1. argument: "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3101"
 2. argument: "budejovice.csv"
 
@@ -26,6 +29,7 @@ Spuštění programu:
 py scrapping.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3101" "budejovice.csv"
 
 Průběh zpracování:
+
 EXTRAHUJI DATA Z ODKAZU https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3101
 
 ZPRACOVAVAM
