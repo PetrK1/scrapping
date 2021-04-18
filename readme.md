@@ -4,17 +4,20 @@ Popis projektu: Projekt slouží k extrakci výsledků parlamentních voleb z ro
 https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
 
 Knihovny
+
 Jejich seznam je uveden v souboru requirements.txt
 Instalace knihoven: V rámci nově vytvořeného virtuálního prostředí lze provést ve složce
 File/Settings/PythonInterpreter. V nově otevřeném okně kliknout na tlačítko "+" (vlevo dole) a poté
 vyhledat a nainstalovat potřebné knihovny.
 
 Spuštění projektu scrapping.py
+
 Provádí se pomocí příkazového řádku a musí obsahovat 2 argumenty:
 py scrapping.py <odkaz_uzemniho_celku><vysledny_soubor>
 Výsledky se uloží do souboru s příponou .csv
 
 Ukázka projektu
+
 Výsledky hlasování pro okres České Budějovice
 1. argument: "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3101"
 2. argument: "budejovice.csv"
